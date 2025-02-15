@@ -1,0 +1,15 @@
+{{ backup_field|raw }}
+{% if is_textarea %}
+  {{- html_field|raw -}}
+{% else %}
+  {{- html_field|raw -}}
+  {%- if extra matches '/(VIRTUAL|PERSISTENT|GENERATED)/' and 'DEFAULT_GENERATED' not in extra -%}
+    <input type="hidden" name="virtual{{ columnNameAppendix }}" value="1">
+  {%- endif -%}
+  {%- if extra == 'auto_increment' -%}
+    <input type="hidden" name="auto_increment{{ columnNameAppendix }}" value="1">
+  {%- endif -%}
+  {%- if trueType == 'bit' or trueType == 'uuid' or trueType == 'timestamp' or trueType == 'datetime' or trueType == 'date' -%}
+    <input type="hidden" name="fields_type{{ columnNameAppendix }}" value="{{ trueType }}">
+  {%- endif -%}
+{% endif %}

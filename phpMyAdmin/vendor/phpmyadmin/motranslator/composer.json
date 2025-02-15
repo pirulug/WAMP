@@ -1,0 +1,71 @@
+{
+    "name": "phpmyadmin/motranslator",
+    "description": "Translation API for PHP using Gettext MO files",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["gettext", "mo", "translator", "i18n"],
+    "homepage": "https://github.com/phpmyadmin/motranslator",
+    "authors": [
+        {
+            "name": "The phpMyAdmin Team",
+            "email": "developers@phpmyadmin.net",
+            "homepage": "https://www.phpmyadmin.net/team/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/phpmyadmin/motranslator/issues",
+        "source": "https://github.com/phpmyadmin/motranslator"
+    },
+    "scripts": {
+        "phpcbf": "@php phpcbf",
+        "phpcs": "@php phpcs",
+        "phpstan": "@php phpstan",
+        "phpunit": "@php phpunit",
+        "test": [
+            "@phpcs",
+            "@phpstan",
+            "@phpunit"
+        ]
+    },
+    "require": {
+        "php": "^8.2",
+        "symfony/expression-language": "^6.4 || ^7.0"
+    },
+    "require-dev": {
+        "phpmyadmin/coding-standard": "^4.0",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^1.12",
+        "phpstan/phpstan-deprecation-rules": "^1.2",
+        "phpstan/phpstan-phpunit": "^1.4",
+        "phpstan/phpstan-strict-rules": "^1.6",
+        "phpunit/phpunit": "^10.5",
+        "psalm/plugin-phpunit": "^0.18.4",
+        "vimeo/psalm": "^5.6"
+    },
+    "suggest": {
+        "ext-apcu": "Needed for ACPu-backed translation cache"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpMyAdmin\\MoTranslator\\": "src"
+        },
+        "files": ["src/functions.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpMyAdmin\\MoTranslator\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        },
+        "discard-changes": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.0-dev"
+        }
+    }
+}
