@@ -342,3 +342,91 @@ ly determine the server's fully qualified domain name, using fe80::5849:3c01:1d4
 [Sat Feb 15 17:33:59.340295 2025] [mpm_winnt:notice] [pid 2916:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sat Feb 15 17:34:01.344654 2025] [mpm_winnt:notice] [pid 13284:tid 452] AH00364: Child: All worker threads have exited.
 [Sat Feb 15 17:34:01.372342 2025] [mpm_winnt:notice] [pid 2916:tid 424] AH00430: Parent: Child process 13284 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 15 23:04:54.613182 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:04:54.614188 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:04:54.614188 2025] [core:notice] [pid 13508:tid 460] AH00094: Command line: 'C:\\Pirulug\\WAMP\\Apache\\bin\\httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:04:54.618497 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00418: Parent: Created child process 7420
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 15 23:04:55.005259 2025] [mpm_winnt:notice] [pid 7420:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:06:32.724373 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00428: Parent: child process 7420 exited with status 1 -- Restarting.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 15 23:06:32.752380 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:06:32.752380 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:06:32.752380 2025] [core:notice] [pid 13508:tid 460] AH00094: Command line: 'C:\\Pirulug\\WAMP\\Apache\\bin\\httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:06:32.756380 2025] [mpm_winnt:notice] [pid 13508:tid 460] AH00418: Parent: Created child process 2084
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 15 23:06:33.131351 2025] [mpm_winnt:notice] [pid 2084:tid 480] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:06:36.227584 2025] [mpm_winnt:crit] [pid 2084:tid 480] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Feb 15 23:06:36.227584 2025] [mpm_winnt:warn] [pid 2084:tid 804] (OS 995)La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Feb 15 23:06:36.227584 2025] [mpm_winnt:warn] [pid 2084:tid 800] (OS 995)La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sat Feb 15 23:06:38.245549 2025] [mpm_winnt:notice] [pid 2084:tid 480] AH00364: Child: All worker threads have exited.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 15 23:06:48.057583 2025] [core:warn] [pid 13964:tid 448] AH00098: pid file C:/Pirulug/WAMP/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Feb 15 23:06:48.077556 2025] [mpm_winnt:notice] [pid 13964:tid 448] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:06:48.077556 2025] [mpm_winnt:notice] [pid 13964:tid 448] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:06:48.077556 2025] [core:notice] [pid 13964:tid 448] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:06:48.080954 2025] [mpm_winnt:notice] [pid 13964:tid 448] AH00418: Parent: Created child process 5196
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::5849:3c01:1d4e:b1df. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 15 23:06:48.356204 2025] [mpm_winnt:notice] [pid 5196:tid 436] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:08:41.068477 2025] [mpm_winnt:notice] [pid 13964:tid 448] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 15 23:08:43.084775 2025] [mpm_winnt:notice] [pid 5196:tid 436] AH00364: Child: All worker threads have exited.
+[Sat Feb 15 23:08:43.105607 2025] [mpm_winnt:notice] [pid 13964:tid 448] AH00430: Parent: Child process 5196 exited successfully.
+[Sat Feb 15 23:09:14.079161 2025] [mpm_winnt:notice] [pid 9376:tid 440] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:09:14.079161 2025] [mpm_winnt:notice] [pid 9376:tid 440] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:09:14.080169 2025] [core:notice] [pid 9376:tid 440] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:09:14.083154 2025] [mpm_winnt:notice] [pid 9376:tid 440] AH00418: Parent: Created child process 14460
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 14460:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:10:20.271966 2025] [mpm_winnt:notice] [pid 9376:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 15 23:10:24.914222 2025] [mpm_winnt:notice] [pid 14460:tid 428] AH00364: Child: All worker threads have exited.
+[Sat Feb 15 23:10:24.933500 2025] [mpm_winnt:notice] [pid 9376:tid 440] AH00430: Parent: Child process 14460 exited successfully.
+[Sat Feb 15 23:10:28.907801 2025] [mpm_winnt:notice] [pid 10432:tid 428] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:10:28.907801 2025] [mpm_winnt:notice] [pid 10432:tid 428] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:10:28.907801 2025] [core:notice] [pid 10432:tid 428] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:10:28.911798 2025] [mpm_winnt:notice] [pid 10432:tid 428] AH00418: Parent: Created child process 7420
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 7420:tid 468] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:12:53.351597 2025] [mpm_winnt:notice] [pid 10432:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 15 23:12:55.920346 2025] [mpm_winnt:notice] [pid 7420:tid 468] AH00364: Child: All worker threads have exited.
+[Sat Feb 15 23:12:55.940718 2025] [mpm_winnt:notice] [pid 10432:tid 428] AH00430: Parent: Child process 7420 exited successfully.
+AH00112: Warning: DocumentRoot [C:/Pirulug/WAMP/www/proyecto2] does not exist
+[Sat Feb 15 23:12:58.518553 2025] [mpm_winnt:notice] [pid 14392:tid 452] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:12:58.518553 2025] [mpm_winnt:notice] [pid 14392:tid 452] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:12:58.518553 2025] [core:notice] [pid 14392:tid 452] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:12:58.521548 2025] [mpm_winnt:notice] [pid 14392:tid 452] AH00418: Parent: Created child process 172
+AH00112: Warning: DocumentRoot [C:/Pirulug/WAMP/www/proyecto2] does not exist
+Apache server shutdown initiated...
+irulug/WAMP/www/proyecto2] does not exist
+[Sat Feb 15 23:12:58.798675 2025] [mpm_winnt:notice] [pid 172:tid 452] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:13:35.475187 2025] [mpm_winnt:notice] [pid 14392:tid 452] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 15 23:13:39.354584 2025] [mpm_winnt:notice] [pid 172:tid 452] AH00364: Child: All worker threads have exited.
+[Sat Feb 15 23:13:39.373358 2025] [mpm_winnt:notice] [pid 14392:tid 452] AH00430: Parent: Child process 172 exited successfully.
+[Sat Feb 15 23:13:41.195298 2025] [mpm_winnt:notice] [pid 8392:tid 436] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:13:41.195298 2025] [mpm_winnt:notice] [pid 8392:tid 436] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:13:41.195298 2025] [core:notice] [pid 8392:tid 436] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:13:41.198291 2025] [mpm_winnt:notice] [pid 8392:tid 436] AH00418: Parent: Created child process 3668
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 3668:tid 440] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:15:09.100437 2025] [php:warn] [pid 3668:tid 1116] [client ::1:49808] PHP Warning:  2002: No se puede establecer una conexi\xc3\xb3n ya que el equipo de destino deneg\xc3\xb3 expresamente dicha conexi\xc3\xb3n in C:\\Pirulug\\WAMP\\phpMyAdmin\\src\\Dbal\\DatabaseInterface.php on line 1609, referer: http://localhost/phpmyadmin/public/index.php?route=/
+[Sat Feb 15 23:15:09.459608 2025] [php:warn] [pid 3668:tid 1116] [client ::1:49808] PHP Warning:  phpMyAdmin intent\xc3\xb3 conectarse con el servidor MySQL, y el servidor rechaz\xc3\xb3 esta conexi\xc3\xb3n. Deber\xc3\xa1 revisar el host, nombre de usuario y contrase\xc3\xb1a en config.inc.php y asegurarse que corresponden con la informaci\xc3\xb3n provista por el administrador del servidor MySQL. in C:\\Pirulug\\WAMP\\phpMyAdmin\\src\\Plugins\\Auth\\AuthenticationConfig.php on line 125, referer: http://localhost/phpmyadmin/public/index.php?route=/
+[Sat Feb 15 23:16:49.360962 2025] [mpm_winnt:notice] [pid 8392:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 15 23:16:51.373778 2025] [mpm_winnt:notice] [pid 3668:tid 440] AH00364: Child: All worker threads have exited.
+[Sat Feb 15 23:16:51.394714 2025] [mpm_winnt:notice] [pid 8392:tid 436] AH00430: Parent: Child process 3668 exited successfully.
+[Sat Feb 15 23:16:57.930942 2025] [mpm_winnt:notice] [pid 2296:tid 448] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:16:57.930942 2025] [mpm_winnt:notice] [pid 2296:tid 448] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:16:57.930942 2025] [core:notice] [pid 2296:tid 448] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:16:57.933942 2025] [mpm_winnt:notice] [pid 2296:tid 448] AH00418: Parent: Created child process 14832
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 14832:tid 428] AH00354: Child: Starting 64 worker threads.
+[Sat Feb 15 23:18:53.910930 2025] [mpm_winnt:notice] [pid 2296:tid 448] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Feb 15 23:18:55.916287 2025] [mpm_winnt:notice] [pid 14832:tid 428] AH00364: Child: All worker threads have exited.
+[Sat Feb 15 23:18:55.936628 2025] [mpm_winnt:notice] [pid 2296:tid 448] AH00430: Parent: Child process 14832 exited successfully.
+[Sat Feb 15 23:18:57.828691 2025] [mpm_winnt:notice] [pid 16156:tid 440] AH00455: Apache/2.4.63 (Win64) PHP/8.3.17 configured -- resuming normal operations
+[Sat Feb 15 23:18:57.828691 2025] [mpm_winnt:notice] [pid 16156:tid 440] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Sat Feb 15 23:18:57.828691 2025] [core:notice] [pid 16156:tid 440] AH00094: Command line: 'httpd.exe -d C:/Pirulug/WAMP/Apache'
+[Sat Feb 15 23:18:57.830698 2025] [mpm_winnt:notice] [pid 16156:tid 440] AH00418: Parent: Created child process 6728
